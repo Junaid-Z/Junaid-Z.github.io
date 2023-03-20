@@ -1,0 +1,342 @@
+@font-face {
+	font-family: Raleway;
+	src: url(./RalewayThin.woff2);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Raleway;
+}
+
+#sec1 {
+	background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.navbar a {
+	text-transform: uppercase;
+}
+
+.dropdown-item {
+	color: #8c979e;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: -1px;
+}
+
+.nav-link {
+	font-weight: 500;
+	line-height: 53px;
+	margin-right: 32px;
+	color: #4c4c4c;
+	font-size: 13px;
+	letter-spacing: -1px;
+}
+
+.nav-link:hover {
+	color: #5234f9;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	text-transform: capitalize !important;
+	font-weight: 300;
+	line-height: 52px;
+	color: rgb(102, 102, 102);
+}
+
+.navbar-brand:hover {
+	color: rgb(102, 102, 102);
+}
+
+.bg-purple {
+	background-color: #745cf9;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.btn.bg-transparent {
+	border: 2px solid #fff;
+}
+
+.btn.bg-transparent:hover {
+	color: #222 !important;
+	background-color: #fff !important;
+}
+
+.btn.bg-purple:hover {
+	opacity: 0.9;
+	background-color: #5d47d7;
+}
+
+#sec1 p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#sec1 h1 {
+	text-align: center;
+	font-size: 60px;
+	line-height: 64px;
+	font-weight: 400;
+}
+
+#sec1 .btn {
+	font-weight: 700 !important;
+	width: 200px;
+	line-height: 24px;
+	border-radius: 0px;
+	color: inherit;
+}
+
+#sec2 {
+	background-color: #fff;
+}
+
+.laptop img {
+	display: block;
+	width: 100%;
+	object-fit: contain;
+}
+
+#sec2 h1 {
+	font-size: 30px;
+	line-height: 33px;
+	color: #0e1015;
+	font-weight: 400;
+}
+
+#sec2 p {
+	font-weight: 400;
+	color: #8c979e;
+	font-size: 14px;
+}
+
+.text>div {
+	width: 360px;
+}
+
+.btn {
+	transition: all 0.3s ease;
+}
+
+.text .btn {
+	width: 200px;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	border-radius: 0px;
+}
+
+#sec3 {
+	background-color: #f5f5f5;
+}
+
+#sec3 h1 {
+	font-size: 30px;
+	line-height: 33px;
+	color: #0e1015;
+	font-weight: 400;
+}
+
+#sec3 p {
+	font-weight: 400;
+	color: #8c979e;
+	font-size: 14px;
+}
+
+.text>div {
+	width: 360px;
+}
+
+.text .btn {
+	width: 200px;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	border-radius: 0px;
+}
+
+#sec4 {
+	background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#sec4 h1 {
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 64px;
+}
+
+#sec4 p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#sec4 .btn {
+	font-weight: 700 !important;
+	width: 200px;
+	line-height: 24px;
+	border-radius: 0px;
+	color: inherit;
+}
+
+#sec5 h1 {
+	font-size: 33px;
+	font-weight: 400;
+	color: #0e1015;
+}
+
+#sec5 p {
+	color: #8c979e;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#sec5 .btn {
+	font-weight: 700 !important;
+	width: 200px;
+	line-height: 24px;
+	border-radius: 0px;
+	color: inherit;
+}
+
+#sec6 {
+	background-color: #0e1015;
+}
+
+#sec6 h1 {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+}
+
+#sec6 p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+#sec7 {
+	text-align: center;
+	background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#sec7 h1 {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+}
+
+#sec7 h2 {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+#sec7 p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.profile img {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#sec8 {
+	background-color: #fff;
+}
+
+#sec8 h1 {
+	color: #0e1015;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+}
+
+#sec8 img {
+	transition: all 0.3s ease;
+	opacity: 0.6;
+	width: 60px;
+	height: 60px;
+}
+
+#sec8 img:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#sec9 {
+	background-color: #f5f5f5;
+}
+
+#sec9 h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #0e1015;
+	font-weight: 400;
+	line-height: 45px;
+}
+
+#sec9 .btn {
+	padding: 13px 26px;
+	border-radius: 0;
+	color: white;
+}
+
+footer {
+	color: #fff;
+	background-color: #0e1015;
+}
+
+.container {
+	max-width: 1140px !important;
+}
+
+footer p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+footer a {
+	font-weight: 600;
+	color: inherit;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #5234f9;
+	text-decoration: none;
+}
+.row{
+	margin: 0;
+}
